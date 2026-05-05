@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=IM06GR
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=8
+Version=2.1
+Released=2016-11-18 09:39:31
+Downloaded=2024-12-15 23:08:12
+3D=Y

@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_17839985"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-05-13:27:58)
+    (utime 2023-04-05-13:27:58)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BZT52-C5V1-QX")
+)
+
+
+(pinAssign "ECS_17839985"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-05-13:27:58)
+    (utime 2023-04-05-13:27:58)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_17839985")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BZT52-C5V1-QX")
+)
+
+
+(part "BZT52-C5V1-QX"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-05-13:27:58)
+    (utime 2023-04-05-13:27:58)
+    (packageRef "BZT52-C5V1-QX")
+    (pinAssignRef "ECS_17839985")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "BZT52-Q series - Voltage regulator diodes@en-us")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "BZT52-C5V1-QX")
+    (property "Mouser_Part_Number" "771-BZT52-C5V1-QX")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BZT52-C5V1-QX?qs=rQFj71Wb1eWpKfJh0U4RGA%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://assets.nexperia.com/documents/data-sheet/BZT52-Q_SER.pdf")
+    (property "compAreaTopHeight" 1.3)
+)
+
+

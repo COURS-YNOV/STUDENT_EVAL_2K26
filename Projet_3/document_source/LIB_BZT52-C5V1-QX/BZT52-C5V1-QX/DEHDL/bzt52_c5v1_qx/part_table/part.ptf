@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BZT52_C5V1_QX'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "BZT52-C5V1-QX" (!) = "", "SOD3616X130N", "Small Outline Diode", "771-BZT52-C5V1-QX", "https://www.mouser.co.uk/ProductDetail/Nexperia/BZT52-C5V1-QX?qs=rQFj71Wb1eWpKfJh0U4RGA%3D%3D", "", "", "BZT52-Q series - Voltage regulator diodes@en-us", "https://assets.nexperia.com/documents/data-sheet/BZT52-Q_SER.pdf", "1.3 mm"
+END_PART
+
+END.

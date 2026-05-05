@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=BCW66GLT3G
+PartCategory=Transistor BJT NPN
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=1.1
+Released=2017-05-04 08:31:21
+Downloaded=2024-12-15 22:00:09
+3D=Y

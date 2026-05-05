@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/1688661/1504594/2.50/8/4/Variable Resistor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c180_h130" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="51.181102362204">
+    <padshape layer="TOP" shape="round" width="70.866141732283" height="70.866141732283" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="78.740157480314" height="78.740157480314" />
+    <padshape layer="INNER" shape="round" width="70.866141732283" height="70.866141732283" />
+    <padshape layer="BOTTOM" shape="round" width="70.866141732283" height="70.866141732283" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="78.740157480314" height="78.740157480314" />
+  </padstyle>
+  <padstyle name="c445.5_h297" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="116.92913385827">
+    <padshape layer="TOP" shape="round" width="175.3937007874" height="175.3937007874" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="183.26771653543" height="183.26771653543" />
+    <padshape layer="INNER" shape="round" width="175.3937007874" height="175.3937007874" />
+    <padshape layer="BOTTOM" shape="round" width="175.3937007874" height="175.3937007874" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="183.26771653543" height="183.26771653543" />
+  </padstyle>
+  <footprint name="PTV1124420AB104" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="A1" style="c180_h130" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="A2" style="c180_h130" originx="-78.740157480314" originy="0" rotation="90" />
+    <pcbpin number="3" name="A3" style="c180_h130" originx="314.96062992126" originy="0" rotation="90" />
+    <pcbpin number="4" name="B1" style="c180_h130" originx="78.740157480314" originy="0" rotation="90" />
+    <pcbpin number="5" name="B2" style="c180_h130" originx="157.48031496063" originy="0" rotation="90" />
+    <pcbpin number="6" name="B3" style="c180_h130" originx="236.22047244094" originy="0" rotation="90" />
+    <pcbpin number="7" name="MH1" style="c445.5_h297" originx="-110.23622047244" originy="433.07086614173" rotation="90" />
+    <pcbpin number="8" name="MH2" style="c445.5_h297" originx="346.45669291338" originy="433.07086614173" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-124.01574803149" originy="74.803149606298" endx="360.23622047244" endy="74.803149606298" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="360.23622047244" originy="74.803149606298" endx="360.23622047244" endy="685.03937007873" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="360.23622047244" originy="685.03937007873" endx="-124.01574803149" endy="685.03937007873" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-124.01574803149" originy="685.03937007873" endx="-124.01574803149" endy="74.803149606298" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="685.03937007873" endx="360.23622047244" endy="685.03937007873" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="685.03937007873" endx="360.23622047244" endy="685.03937007873" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="685.03937007873" endx="-124.01574803149" endy="685.03937007873" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="685.03937007873" endx="-124.01574803149" endy="685.03937007873" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="74.803149606298" endx="-124.01574803149" endy="74.803149606298" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="74.803149606298" endx="-124.01574803149" endy="74.803149606298" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="74.803149606298" endx="360.23622047244" endy="74.803149606298" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="74.803149606298" endx="360.23622047244" endy="74.803149606298" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-237.28346456693" originy="724.40944881889" endx="473.50393700787" endy="724.40944881889" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="473.50393700787" originy="724.40944881889" endx="473.50393700787" endy="-96.456692913385" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="473.50393700787" originy="-96.456692913385" endx="-237.28346456693" endy="-96.456692913385" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-237.28346456693" originy="-96.456692913385" endx="-237.28346456693" endy="724.40944881889" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="541.33858267716" endx="-124.01574803149" endy="541.33858267716" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="541.33858267716" endx="-124.01574803149" endy="685.03937007873" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="685.03937007873" endx="-124.01574803149" endy="685.03937007873" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="685.03937007873" endx="-124.01574803149" endy="541.33858267716" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="685.03937007873" endx="360.23622047244" endy="685.03937007873" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="685.03937007873" endx="360.23622047244" endy="541.33858267716" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="541.33858267716" endx="360.23622047244" endy="541.33858267716" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="541.33858267716" endx="360.23622047244" endy="685.03937007873" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="324.8031496063" endx="360.23622047244" endy="324.8031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="324.8031496063" endx="360.23622047244" endy="74.803149606298" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="74.803149606298" endx="360.23622047244" endy="74.803149606298" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="360.23622047244" originy="74.803149606298" endx="360.23622047244" endy="324.8031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="74.803149606298" endx="-124.01574803149" endy="74.803149606298" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="74.803149606298" endx="-124.01574803149" endy="324.8031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="324.8031496063" endx="-124.01574803149" endy="324.8031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-124.01574803149" originy="324.8031496063" endx="-124.01574803149" endy="74.803149606298" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="0" originy="-55.11811023622" endx="0" endy="-55.11811023622" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="1.9685039370078" originy="-55.11811023622" startangle="180.0" sweepangle="180.0" radius="1.9685039370078" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="3.9370078740157" originy="-55.11811023622" endx="3.9370078740157" endy="-55.11811023622" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="1.9685039370078" originy="-55.11811023622" startangle=".0" sweepangle="180.0" radius="1.9685039370078" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="0" originy="-55.11811023622" endx="0" endy="-55.11811023622" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="1.9685039370078" originy="-55.11811023622" startangle="180.0" sweepangle="180.0" radius="1.9685039370078" width="7.8740157480314" />
+  </footprint>
+  <symbol name="PTV112-4420A-B104" originx="0" originy="0">
+    <line originx="200" originy="100" endx="800" endy="100" width="0" />
+    <line originx="800" originy="-600" endx="800" endy="100" width="0" />
+    <line originx="800" originy="-600" endx="200" endy="-600" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-600" width="0" />
+    <sympin number="1" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="A1" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="A1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="A2" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="A2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-500" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-500" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="A3" />
+      <text name="pindes" originx="140" originy="-480" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="A3" />
+    </sympin>
+    <sympin number="4" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="B1" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="B1" />
+    </sympin>
+    <sympin number="5" originx="200" originy="-300" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-300" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="B2" />
+      <text name="pindes" originx="140" originy="-280" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="B2" />
+    </sympin>
+    <sympin number="6" originx="200" originy="-400" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-400" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="B3" />
+      <text name="pindes" originx="140" originy="-380" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="B3" />
+    </sympin>
+    <sympin number="7" originx="800" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="770" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="MH1" />
+      <text name="pindes" originx="860" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="MH1" />
+    </sympin>
+    <sympin number="8" originx="800" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="770" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="MH2" />
+      <text name="pindes" originx="860" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="MH2" />
+    </sympin>
+  </symbol>
+  <component name="PTV112-4420A-B104" designatorprefix="VR" height="807.08661417322" footprint="PTV1124420AB104">
+    <comppin designator="A1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A1" />
+    <comppin designator="A2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A2" />
+    <comppin designator="A3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A3" />
+    <comppin designator="B1" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="B1" />
+    <comppin designator="B2" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="B2" />
+    <comppin designator="B3" sympin="6" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="B3" />
+    <comppin designator="MH1" sympin="7" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="MH1" />
+    <comppin designator="MH2" sympin="8" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="MH2" />
+    <attached_symbol gate="1" name="PTV112-4420A-B104" />
+    <pinmap designator="A1" footprintpin="1" />
+    <pinmap designator="A2" footprintpin="2" />
+    <pinmap designator="A3" footprintpin="3" />
+    <pinmap designator="B1" footprintpin="4" />
+    <pinmap designator="B2" footprintpin="5" />
+    <pinmap designator="B3" footprintpin="6" />
+    <pinmap designator="MH1" footprintpin="7" />
+    <pinmap designator="MH2" footprintpin="8" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.bourns.com/docs/Product-Datasheets/PTVPTT.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Potentiometers PANEL CONTROL 100kOhm" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Bourns" />
+    <text name="Manufacturer_Part_Number" originx="850" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="PTV112-4420A-B104" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="652-PTV1124420AB104" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Bourns/PTV112-4420A-B104?qs=nqw9FAyaR8PT4wHHFlLdhA%3D%3D" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+  </component>
+</quadcept_library>

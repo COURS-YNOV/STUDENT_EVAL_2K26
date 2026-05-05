@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "FDLL4448"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "FDLL4448")
+        (spec "default")
+    )
+)

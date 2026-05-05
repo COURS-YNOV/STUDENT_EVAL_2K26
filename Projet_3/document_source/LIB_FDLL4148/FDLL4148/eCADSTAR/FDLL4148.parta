@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_977206"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-12-17-06:14:28)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "FDLL4148")
+)
+
+
+(pinAssign "ECS_977206"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-12-17-06:14:28)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_977206")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "FDLL4148")
+)
+
+
+(part "FDLL4148"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-12-17-06:14:28)
+    (utime 2024-09-19-14:45:22)
+    (packageRef "FDLL4148")
+    (pinAssignRef "ECS_977206")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Diode Ultra Fast 100V 0.2A 2-Pin LL-34")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "FDLL4148")
+    (property "Mouser_Part_Number" "512-FDLL4148")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FDLL4148?qs=GXJjH%252BIVz3Nb7%252BJnJig0Zw%3D%3D")
+    (property "Arrow_Part_Number" "FDLL4148")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/fdll4148/on-semiconductor?utm_currency=USD&region=europe")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 1)
+)
+
+

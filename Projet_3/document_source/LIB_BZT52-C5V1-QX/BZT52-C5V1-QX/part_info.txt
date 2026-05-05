@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=BZT52-C5V1-QX
+PartCategory=Diode
+PackageCategory=Small Outline Diode
+PinCount=2
+Version=2.1
+Released=2023-04-05 13:27:58
+Downloaded=2024-12-15 22:04:49
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PJ1_021_SMT_TR'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "PJ1-021-SMT-TR" (!) = "", "PJ1021SMTTR", "Other", "490-PJ1-021-SMT-TR", "https://www.mouser.co.uk/ProductDetail/Same-Sky/PJ1-021-SMT-TR?qs=WyjlAZoYn506c0%252BNiPlnfA%3D%3D", "PJ1-021-SMT-TR", "https://www.arrow.com/en/products/pj1-021-smt-tr/cui-devices?region=nac", "1.65 x 5.15 mm, 5.0 A, Horizontal, Surface Mount (SMT), Dc Power Jack Connector", "https://www.sameskydevices.com/product/resource/supplyframepdf/pj1-021-smt-tr.pdf", "6 mm"
+END_PART
+
+END.

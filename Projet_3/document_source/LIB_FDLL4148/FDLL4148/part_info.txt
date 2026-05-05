@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=FDLL4148
+PartCategory=Diode
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2018-12-17 06:14:28
+Downloaded=2024-12-15 21:36:57
+3D=Y

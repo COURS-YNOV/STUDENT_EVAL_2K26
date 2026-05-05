@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PTV1124420AB104"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PTV1124420AB104")
+        (spec "default")
+    )
+)

@@ -1,0 +1,211 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PTV112-4420A-B104"
+   (description "Potentiometers PANEL CONTROL 100kOhm")
+   (family "ANA")
+   (package "PTV1124420AB104")
+   (attribute "Datasheet Link" "https://www.bourns.com/docs/Product-Datasheets/PTVPTT.pdf")
+   (attribute "Geometry.Height" "20.5mm")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "PTV112-4420A-B104")
+   (attribute "Mouser Part Number" "652-PTV1124420AB104")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV112-4420A-B104?qs=nqw9FAyaR8PT4wHHFlLdhA%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "PTV112-4420A-B104")
+    (pin "A1" A1 PS)
+    (pin "A2" A2 PS)
+    (pin "A3" A3 PS)
+    (pin "B1" B1 PS)
+    (pin "B2" B2 PS)
+    (pin "B3" B3 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "PTV112-4420A-B104"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PTV1124420AB104"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.15 1.9)
+      (pt 9.15 1.9)
+      (pt 9.15 17.4)
+      (pt -3.15 17.4)
+      (pt -3.15 1.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.15 17.4)
+      (pt 9.15 17.4)
+      (pt 9.15 17.4)
+      (pt -3.15 17.4)
+      (pt -3.15 17.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 9.15 1.9)
+      (pt -3.15 1.9)
+      (pt -3.15 1.9)
+      (pt 9.15 1.9)
+      (pt 9.15 1.9))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.027 18.4)
+      (pt 12.027 18.4)
+      (pt 12.027 -2.45)
+      (pt -6.027 -2.45)
+      (pt -6.027 18.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.15 13.75)
+      (pt -3.15 13.75)
+      (pt -3.15 17.4)
+      (pt -3.15 17.4)
+      (pt -3.15 13.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 9.15 17.4)
+      (pt 9.15 17.4)
+      (pt 9.15 13.75)
+      (pt 9.15 13.75)
+      (pt 9.15 17.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 9.15 8.25)
+      (pt 9.15 8.25)
+      (pt 9.15 1.9)
+      (pt 9.15 1.9)
+      (pt 9.15 8.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.15 1.9)
+      (pt -3.15 1.9)
+      (pt -3.15 8.25)
+      (pt -3.15 8.25)
+      (pt -3.15 1.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 -1.4)
+      (arc (pt 0.000 -1.400) (pt 0.000 -1.450) (pt 0.100 -1.350) (start 180.0) (sweep 180.0))
+      (pt 0.1 -1.4)
+      (arc (pt 0.100 -1.400) (pt 0.000 -1.450) (pt 0.100 -1.350) (start 180.0) (sweep .0))
+      (pt 0 -1.4)
+      (arc (pt 0.000 -1.400) (pt 0.000 -1.450) (pt 0.100 -1.350) (start 180.0) (sweep 180.0))
+      (pt 0.1 -1.4))))
+   (leg A1 (pt 0.000 0.000) (padstack 0))
+   (leg A2 (pt -2.000 0.000) (padstack 0))
+   (leg A3 (pt 8.000 0.000) (padstack 0))
+   (leg B1 (pt 2.000 0.000) (padstack 0))
+   (leg B2 (pt 4.000 0.000) (padstack 0))
+   (leg B3 (pt 6.000 0.000) (padstack 0))
+   (leg MH1 (pt -2.800 11.000) (padstack 7))
+   (leg MH2 (pt 8.800 11.000) (padstack 8))
+   (padstack 0
+    (hole 1.3)
+    (plated true)
+    (pad (layer TCOP) (round 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (round 1.800))
+   )
+   (padstack 7
+    (hole 2.97)
+    (plated true)
+    (pad (layer TCOP) (round 4.455))
+    (pad (layer INNER) (round 4.455))
+    (pad (layer BCOP) (round 4.455))
+   )
+   (padstack 8
+    (hole 2.97)
+    (plated true)
+    (pad (layer TCOP) (round 4.455))
+    (pad (layer INNER) (round 4.455))
+    (pad (layer BCOP) (round 4.455))
+   )
+   (model "PTV112-4420A-B104.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

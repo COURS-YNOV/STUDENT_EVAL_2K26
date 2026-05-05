@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=PTV112-4420A-B104
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=8
+Version=1.2
+Released=2019-11-07 11:38:21
+Downloaded=2024-12-15 22:44:11
+3D=Y

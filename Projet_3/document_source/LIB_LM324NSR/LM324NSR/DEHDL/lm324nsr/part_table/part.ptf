@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM324NSR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM324NSR" (!) = "", "SOIC127P780X200-14N", "Small Outline Packages", "595-LM324NSR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM324NSR?qs=VBduBm9rCJQcjq4eh95DkA%3D%3D", "LM324NSR", "https://www.arrow.com/en/products/lm324nsr/texas-instruments?utm_currency=USD&region=nac", "Quadruple Operational Amplifier", "http://www.ti.com/lit/gpn/LM324", "2 mm"
+END_PART
+
+END.
