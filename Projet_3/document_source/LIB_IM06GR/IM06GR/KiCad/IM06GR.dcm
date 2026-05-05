@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IM06GR
+D Body Features: Product Weight .026 OZ | Insulation Special Features 2500V Initial Surge Withstand Voltage between Contacts & Coil | Product Weight .75 G | Contact Features: Contact Special Features Bifurcated/Twin Contacts | Contact Number of Poles 2 | Contact Current Class 0  2 AMP | Contact Current Rating (Max) 2 AMP | Contact Arrangement 2 Form C (2 CO) | Contact Base Material PdRu+Au | Contact Plating Material Gold | Dimensions: Product Width 6 MM | Product Length .393 INCH | Product Height 5.65 MM |
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-98001&DocType=Data%20Sheet&DocLang=English&PartCntxt=2-1462037-3&DocFormat=pdf
+$ENDCMP
+#
+#End Doc Library

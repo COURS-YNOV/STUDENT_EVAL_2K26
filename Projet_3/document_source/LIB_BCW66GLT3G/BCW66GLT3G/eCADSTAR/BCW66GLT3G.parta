@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_256813"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-05-04-08:31:21)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "BCW66GLT3G")
+)
+
+
+(pinAssign "ECS_256813"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-05-04-08:31:21)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_256813")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BCW66GLT3G")
+)
+
+
+(part "BCW66GLT3G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-05-04-08:31:21)
+    (utime 2024-09-19-14:45:22)
+    (packageRef "BCW66GLT3G")
+    (pinAssignRef "ECS_256813")
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "NPN Bipolar Transistor")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "BCW66GLT3G")
+    (property "Mouser_Part_Number" "863-BCW66GLT3G")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BCW66GLT3G?qs=XfkxeqX9xWXeTiewInI3Nw%3D%3D")
+    (property "Arrow_Part_Number" "BCW66GLT3G")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/bcw66glt3g/on-semiconductor?region=europe")
+    (property "Datasheet_Link" "http://www.onsemi.com/pub/Collateral/BCW66GLT1-D.PDF")
+    (property "compAreaTopHeight" 1.11)
+)
+
+

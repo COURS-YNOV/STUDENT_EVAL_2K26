@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FDLL4148'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "FDLL4148" (!) = "", "FDLL4448", "Other", "512-FDLL4148", "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FDLL4148?qs=GXJjH%252BIVz3Nb7%252BJnJig0Zw%3D%3D", "FDLL4148", "https://www.arrow.com/en/products/fdll4148/on-semiconductor?utm_currency=USD&region=europe", "Diode Ultra Fast 100V 0.2A 2-Pin LL-34", "", "1 mm"
+END_PART
+
+END.

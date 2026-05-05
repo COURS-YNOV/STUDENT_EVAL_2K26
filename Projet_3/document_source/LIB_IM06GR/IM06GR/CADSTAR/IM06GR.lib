@@ -1,0 +1,18 @@
+.IM06GR :1 ;Body Features: Product Weight .026 OZ | Insulation Special Features 2500V Initial Surge Withstand Voltage between Contacts & Coil | Product Weight .75 G | Contact Features: Contact Special Features Bifurcated/Twin Contacts | Contact Number of Poles 2 | Contact Current Class 0  2 AMP | Contact Current Rating (Max) 2 AMP | Contact Arrangement 2 Form C (2 CO) | Contact Base Material PdRu+Au | Contact Plating Material Gold | Dimensions: Product Width 6 MM | Product Length .393 INCH | Product Height 5.65 MM |
+IM06GR
+*STM K
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 8
+*DFN IM06GR
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (IM06GR)
+~!Mouser Part Number (655-IM06GR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/IM06GR?qs=CYMZr0Hm9rcOFFXIittlkQ%3D%3D)
+~!Arrow Part Number (IM06GR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/im06gr/te-connectivity?region=nac)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-98001&DocType=Data%20Sheet&DocLang=English&PartCntxt=2-1462037-3&DocFormat=pdf)
+~!Height (-)
+~!3D_Model (IM06GR)
+IM06GR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

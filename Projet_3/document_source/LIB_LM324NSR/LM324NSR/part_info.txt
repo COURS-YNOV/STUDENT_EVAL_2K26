@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM324NSR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=1.1
+Released=2019-08-23 03:12:31
+Downloaded=2024-12-15 21:53:16
+3D=Y

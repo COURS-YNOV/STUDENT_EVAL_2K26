@@ -1,0 +1,108 @@
+
+(EDIF
+  (rename &PJ1_021_SMT_TR "PJ1_021_SMT_TR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 12 15 23 38 47)
+      (dataOrigin "3725389/1504594/2.50/3/2/Connector")
+      (program "SamacSys ECAD Model PJ1_021_SMT_TR"
+        (version "2.2"))))
+  (library
+  (rename &PJ1_021_SMT_TR "PJ1_021_SMT_TR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &PJ1_021_SMT_TR "PJ1_021_SMT_TR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "PJ1_021_SMT_TR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "PJ1021SMTTR"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Same Sky"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "PJ1-021-SMT-TR"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "490-PJ1-021-SMT-TR"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Same-Sky/PJ1-021-SMT-TR?qs=WyjlAZoYn506c0%252BNiPlnfA%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "PJ1-021-SMT-TR"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/pj1-021-smt-tr/cui-devices?region=nac"))
+          (property (rename &Description "Description") (string "1.65 x 5.15 mm, 5.0 A, Horizontal, Surface Mount (SMT), Dc Power Jack Connector"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.sameskydevices.com/product/resource/supplyframepdf/pj1-021-smt-tr.pdf"))
+          (property (rename &Height "Height") (string "6 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "PJ1_021_SMT_TR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (property (rename &NC "NC") (string "MH1,MH2"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -200) (pt 600 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -200))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -100) (pt 600 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 400 0)
+                  (pt 400 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 30))))
+          )
+        )
+      )
+    )
+  )
+)

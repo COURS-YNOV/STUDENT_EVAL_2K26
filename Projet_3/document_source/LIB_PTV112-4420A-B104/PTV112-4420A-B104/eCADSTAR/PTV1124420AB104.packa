@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PTV112-4420A-B104"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-18-13:51:13)
+    (mountForm default
+        (footprintRef "PTV1124420AB104")
+        (spec "System")
+    )
+)

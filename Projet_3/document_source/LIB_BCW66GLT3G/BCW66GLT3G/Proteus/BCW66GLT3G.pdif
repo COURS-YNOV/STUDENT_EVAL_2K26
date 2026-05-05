@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BCW66GLT3G"
+   (description "NPN Bipolar Transistor")
+   (family "TRX")
+   (package "SOT96P237X111-3N")
+   (attribute "Datasheet Link" "http://www.onsemi.com/pub/Collateral/BCW66GLT1-D.PDF")
+   (attribute "Geometry.Height" "1.11mm")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "BCW66GLT3G")
+   (attribute "Mouser Part Number" "863-BCW66GLT3G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BCW66GLT3G?qs=XfkxeqX9xWXeTiewInI3Nw%3D%3D")
+   (attribute "Arrow Part Number" "BCW66GLT3G")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/bcw66glt3g/on-semiconductor?region=europe")
+   (gate
+    (symbol "BCW66GLT3G")
+    (pin "B" 1 PS)
+    (pin "E" 2 PS)
+    (pin "C" 3 PS)
+   )
+  )
+  (symbol "BCW66GLT3G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 150) (pt 300 -150))
+   )
+   (graphic
+    (stroke 20)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 50) (pt 400 150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -50) (pt 400 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -150) (pt 400 -200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 150) (pt 400 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 330 -100) (pt 350 -80) (pt 370 -120) (pt 330 -100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 -300) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 300) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT96P237X111-3N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.95 1.77)
+      (pt 1.95 1.77)
+      (pt 1.95 -1.77)
+      (pt -1.95 -1.77)
+      (pt -1.95 1.77))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.65 1.46)
+      (pt 0.65 1.46)
+      (pt 0.65 -1.46)
+      (pt -0.65 -1.46)
+      (pt -0.65 1.46))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.65 0.505)
+      (pt 0.305 1.46))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.35 1.46)
+      (pt 0.35 1.46)
+      (pt 0.35 -1.46)
+      (pt -0.35 -1.46)
+      (pt -0.35 1.46))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.7 1.505)
+      (pt -0.7 1.505))))
+   (leg 1 (pt -1.2 0.955) (padstack 0))
+   (leg 2 (pt -1.2 -0.955) (padstack 0))
+   (leg 3 (pt 1.2 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.6 1 0 0 0))
+   )
+   (model "BCW66GLT3G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

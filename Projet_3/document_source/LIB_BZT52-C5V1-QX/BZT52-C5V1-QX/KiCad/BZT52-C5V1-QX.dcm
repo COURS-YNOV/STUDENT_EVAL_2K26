@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZT52-C5V1-QX
+D BZT52-Q series - Voltage regulator diodes@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/BZT52-Q_SER.pdf
+$ENDCMP
+#
+#End Doc Library

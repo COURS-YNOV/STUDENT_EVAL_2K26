@@ -1,0 +1,19 @@
+.PTV112-4420A-B104 :1 ;Potentiometers PANEL CONTROL 100kOhm
+PTV1124420AB104
+*STM VR
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=B1 5=B2 6=B3 7=MH1 8=MH2
+*PLB 1="A1" 2="A2" 3="A3" 4="B1" 5="B2" 6="B3" 7="MH1" 8="MH2"
+*MXP 8
+*DFN PTV112-4420A-B104
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (PTV112-4420A-B104)
+~!Mouser Part Number (652-PTV1124420AB104)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/PTV112-4420A-B104?qs=nqw9FAyaR8PT4wHHFlLdhA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.bourns.com/docs/Product-Datasheets/PTVPTT.pdf)
+~!Height (20.5mm)
+~!3D_Model (PTV112-4420A-B104)
+PTV112-4420A-B104
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

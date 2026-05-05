@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BCW66GLT3G
+D NPN Bipolar Transistor
+K
+F http://www.onsemi.com/pub/Collateral/BCW66GLT1-D.PDF
+$ENDCMP
+#
+#End Doc Library

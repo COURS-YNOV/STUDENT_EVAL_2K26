@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTV112-4420A-B104
+D Potentiometers PANEL CONTROL 100kOhm
+K
+F https://www.bourns.com/docs/Product-Datasheets/PTVPTT.pdf
+$ENDCMP
+#
+#End Doc Library
