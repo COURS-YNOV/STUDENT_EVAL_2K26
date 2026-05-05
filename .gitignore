@@ -1,0 +1,8 @@
+# Altium useless files
+*.SchDocPreview
+*.PcbDocPreview
+*.bak
+*.tmp
+*.log
+History/
+__Previews/
